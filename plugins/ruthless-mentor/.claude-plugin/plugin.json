@@ -1,0 +1,11 @@
+{
+  "name": "ruthless-mentor",
+  "version": "1.0.0",
+  "description": "Stress-test a plan, idea, or decision in attack mode — sort proposals into gold / trash / directionally-right-but-flawed and push each to bulletproof.",
+  "author": {
+    "name": "WiseChef",
+    "email": "hello@wisechef.ai"
+  },
+  "license": "Apache-2.0",
+  "keywords": ["stress-test", "planning", "decision-review", "adversarial-review"]
+}

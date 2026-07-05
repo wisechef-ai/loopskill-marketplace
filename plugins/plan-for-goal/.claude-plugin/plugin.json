@@ -1,0 +1,11 @@
+{
+  "name": "plan-for-goal",
+  "version": "1.0.0",
+  "description": "Author a goal-execution plan-doc ready to paste into a goal/issue tracker as discrete, falsifiable goals — with budget, phases, premortem, and acceptance gates.",
+  "author": {
+    "name": "WiseChef",
+    "email": "hello@wisechef.ai"
+  },
+  "license": "Apache-2.0",
+  "keywords": ["planning", "goals", "execution", "plan-doc"]
+}

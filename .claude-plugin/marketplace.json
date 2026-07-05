@@ -1,0 +1,70 @@
+{
+  "name": "loopskill",
+  "owner": {
+    "name": "WiseChef",
+    "email": "hello@wisechef.ai"
+  },
+  "description": "Curated Claude Code plugins from LoopSkill (app.loopskill.io), the runnable-loop registry for AI agents — plus the LoopSkill meta-skill itself, which connects any agent to the registry to search, install, and run verified skills and loops.",
+  "plugins": [
+    {
+      "name": "loopskill",
+      "source": "./plugins/loopskill",
+      "description": "Connect your agent to the LoopSkill registry — search, install, run verified loops.",
+      "version": "1.0.0",
+      "author": {
+        "name": "WiseChef",
+        "email": "hello@wisechef.ai"
+      },
+      "homepage": "https://app.loopskill.io",
+      "repository": "https://github.com/wisechef-ai/loopskill-api",
+      "license": "MPL-2.0",
+      "keywords": ["loopskill", "registry", "marketplace", "mcp", "agent"],
+      "category": "meta"
+    },
+    {
+      "name": "super-memory",
+      "source": "./plugins/super-memory",
+      "description": "One-command installer for the full agent memory stack: cognee 1.0.x knowledge graph (pghybrid), LiteLLM proxy with rotation, cognee-api watchdog cron, nightly ingest pipeline, CouchDB 3 single-node document store, and a filesystem markdown vault wired to Obsidian.",
+      "version": "1.0.0",
+      "license": "MIT",
+      "keywords": ["cognee", "memory", "obsidian", "vault", "litellm", "couchdb"],
+      "category": "infrastructure"
+    },
+    {
+      "name": "ruthless-mentor",
+      "source": "./plugins/ruthless-mentor",
+      "description": "Stress-test a plan, idea, or decision in attack mode — sort proposals into gold / trash / directionally-right-but-flawed and push each to bulletproof.",
+      "version": "1.0.0",
+      "license": "Apache-2.0",
+      "keywords": ["stress-test", "planning", "decision-review", "adversarial-review"],
+      "category": "planning"
+    },
+    {
+      "name": "plan-for-goal",
+      "source": "./plugins/plan-for-goal",
+      "description": "Author a goal-execution plan-doc ready to paste into a goal/issue tracker as discrete, falsifiable goals — with budget, phases, premortem, and acceptance gates.",
+      "version": "1.0.0",
+      "license": "Apache-2.0",
+      "keywords": ["planning", "goals", "execution", "plan-doc"],
+      "category": "planning"
+    },
+    {
+      "name": "llm-wiki-hermes",
+      "source": "./plugins/llm-wiki-hermes",
+      "description": "Karpathy's LLM Wiki pattern: build and maintain a persistent, compounding knowledge base as interlinked markdown files.",
+      "version": "1.0.0",
+      "license": "MIT",
+      "keywords": ["wiki", "knowledge-base", "research", "markdown"],
+      "category": "research"
+    },
+    {
+      "name": "hub-search-claude-code",
+      "source": "./plugins/hub-search-claude-code",
+      "description": "Scanner skill that discovers locally-installed Claude Code skills and community npm plugins before installing a duplicate or authoring a new one from scratch.",
+      "version": "1.0.0",
+      "license": "Apache-2.0",
+      "keywords": ["discovery", "claude-code", "plugin", "hub-search"],
+      "category": "discovery"
+    }
+  ]
+}

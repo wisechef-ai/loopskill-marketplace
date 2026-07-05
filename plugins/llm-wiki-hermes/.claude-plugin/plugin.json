@@ -1,0 +1,10 @@
+{
+  "name": "llm-wiki-hermes",
+  "version": "1.0.0",
+  "description": "Karpathy's LLM Wiki pattern: build and maintain a persistent, compounding knowledge base as interlinked markdown files.",
+  "author": {
+    "name": "Hermes Agent"
+  },
+  "license": "MIT",
+  "keywords": ["wiki", "knowledge-base", "research", "markdown"]
+}

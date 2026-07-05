@@ -1,0 +1,11 @@
+{
+  "name": "hub-search-claude-code",
+  "version": "1.0.0",
+  "description": "Scanner skill that discovers locally-installed Claude Code skills and community npm plugins before installing a duplicate or authoring a new one from scratch.",
+  "author": {
+    "name": "WiseChef",
+    "email": "hello@wisechef.ai"
+  },
+  "license": "Apache-2.0",
+  "keywords": ["discovery", "claude-code", "plugin", "hub-search"]
+}

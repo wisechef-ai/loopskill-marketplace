@@ -1,0 +1,11 @@
+{
+  "name": "super-memory",
+  "version": "1.0.0",
+  "description": "One-command installer for the full agent memory stack: cognee 1.0.x knowledge graph (pghybrid), LiteLLM proxy with rotation, cognee-api watchdog cron, nightly ingest pipeline, CouchDB 3 single-node document store, and a filesystem markdown vault wired to Obsidian.",
+  "author": {
+    "name": "WiseChef",
+    "email": "hello@wisechef.ai"
+  },
+  "license": "MIT",
+  "keywords": ["cognee", "memory", "obsidian", "vault", "litellm", "couchdb"]
+}
