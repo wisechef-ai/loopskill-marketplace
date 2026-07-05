@@ -20,14 +20,14 @@ Then install any plugin listed below, for example:
 
 ## Plugins
 
-| Plugin | Description | License |
-| --- | --- | --- |
-| [`loopskill`](./plugins/loopskill) | Connect your agent to the LoopSkill registry — search, install, run verified loops. | MPL-2.0 |
-| [`super-memory`](./plugins/super-memory) | One-command installer for the full agent memory stack (cognee, LiteLLM proxy, CouchDB, Obsidian vault). | MIT |
-| [`ruthless-mentor`](./plugins/ruthless-mentor) | Stress-test a plan or decision in attack mode — separate gold from trash and push each to bulletproof. | Apache-2.0 |
-| [`plan-for-goal`](./plugins/plan-for-goal) | Author a goal-execution plan-doc ready to paste into a goal/issue tracker. | Apache-2.0 |
-| [`llm-wiki-hermes`](./plugins/llm-wiki-hermes) | Karpathy's LLM Wiki pattern: a persistent, compounding knowledge base as interlinked markdown files. | MIT |
-| [`hub-search-claude-code`](./plugins/hub-search-claude-code) | Discover locally-installed Claude Code skills and community npm plugins before authoring a duplicate. | Apache-2.0 |
+| Plugin | Description | License | Registry |
+| --- | --- | --- | --- |
+| [`loopskill`](./plugins/loopskill) | Connect your agent to the LoopSkill registry — search, install, run verified loops. | MPL-2.0 | [app.loopskill.io/skills/loopskill](https://app.loopskill.io/skills/loopskill) |
+| [`super-memory`](./plugins/super-memory) | One-command installer for the full agent memory stack (cognee, LiteLLM proxy, CouchDB, Obsidian vault). | MIT | [app.loopskill.io/skills/super-memory](https://app.loopskill.io/skills/super-memory) |
+| [`ruthless-mentor`](./plugins/ruthless-mentor) | Stress-test a plan or decision in attack mode — separate gold from trash and push each to bulletproof. | Apache-2.0 | [app.loopskill.io/skills/ruthless-mentor](https://app.loopskill.io/skills/ruthless-mentor) |
+| [`plan-for-goal`](./plugins/plan-for-goal) | Author a goal-execution plan-doc ready to paste into a goal/issue tracker. | Apache-2.0 | [app.loopskill.io/skills/plan-for-goal](https://app.loopskill.io/skills/plan-for-goal) |
+| [`llm-wiki-hermes`](./plugins/llm-wiki-hermes) | Karpathy's LLM Wiki pattern: a persistent, compounding knowledge base as interlinked markdown files. | MIT | [app.loopskill.io/skills/llm-wiki-hermes](https://app.loopskill.io/skills/llm-wiki-hermes) |
+| [`hub-search-claude-code`](./plugins/hub-search-claude-code) | Discover locally-installed Claude Code skills and community npm plugins before authoring a duplicate. | Apache-2.0 | [app.loopskill.io/skills/hub-search-claude-code](https://app.loopskill.io/skills/hub-search-claude-code) |
 
 The `loopskill` plugin is the flagship entry: it wires an agent directly into
 the LoopSkill registry so it can search, install, and run additional verified
