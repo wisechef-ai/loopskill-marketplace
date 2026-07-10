@@ -1,0 +1,12 @@
+{
+  "name": "xquik",
+  "version": "1.0.0",
+  "description": "Research public X data through Xquik MCP with source provenance and approval-gated write actions.",
+  "author": {
+    "name": "Xquik"
+  },
+  "homepage": "https://docs.xquik.com/mcp/overview",
+  "repository": "https://github.com/Xquik-dev/tweetclaw",
+  "license": "MIT",
+  "keywords": ["xquik", "x", "twitter", "research", "mcp"]
+}

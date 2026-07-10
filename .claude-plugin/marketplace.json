@@ -4,7 +4,9 @@
     "name": "WiseChef",
     "email": "hello@wisechef.ai"
   },
-  "description": "Curated Claude Code plugins from LoopSkill (app.loopskill.io), the runnable-loop registry for AI agents — plus the LoopSkill meta-skill itself, which connects any agent to the registry to search, install, and run verified skills and loops.",
+  "metadata": {
+    "description": "Curated Claude Code plugins from LoopSkill, including its registry connector and standalone agent skills."
+  },
   "plugins": [
     {
       "name": "loopskill",
@@ -65,6 +67,20 @@
       "license": "Apache-2.0",
       "keywords": ["discovery", "claude-code", "plugin", "hub-search"],
       "category": "discovery"
+    },
+    {
+      "name": "xquik",
+      "source": "./plugins/xquik",
+      "description": "Research public X data through Xquik MCP with source provenance and approval-gated write actions.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Xquik"
+      },
+      "homepage": "https://docs.xquik.com/mcp/overview",
+      "repository": "https://github.com/Xquik-dev/tweetclaw",
+      "license": "MIT",
+      "keywords": ["xquik", "x", "twitter", "research", "mcp"],
+      "category": "research"
     }
   ]
 }

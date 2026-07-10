@@ -28,6 +28,7 @@ Then install any plugin listed below, for example:
 | [`plan-for-goal`](./plugins/plan-for-goal) | Author a goal-execution plan-doc ready to paste into a goal/issue tracker. | Apache-2.0 | [app.loopskill.io/skills/plan-for-goal](https://app.loopskill.io/skills/plan-for-goal) |
 | [`llm-wiki-hermes`](./plugins/llm-wiki-hermes) | Karpathy's LLM Wiki pattern: a persistent, compounding knowledge base as interlinked markdown files. | MIT | [app.loopskill.io/skills/llm-wiki-hermes](https://app.loopskill.io/skills/llm-wiki-hermes) |
 | [`hub-search-claude-code`](./plugins/hub-search-claude-code) | Discover locally-installed Claude Code skills and community npm plugins before authoring a duplicate. | Apache-2.0 | [app.loopskill.io/skills/hub-search-claude-code](https://app.loopskill.io/skills/hub-search-claude-code) |
+| [`xquik`](./plugins/xquik) | Research public X data through Xquik MCP with source provenance and approval-gated write actions. | MIT | [Xquik MCP docs](https://docs.xquik.com/mcp/overview) |
 
 The `loopskill` plugin is the flagship entry: it wires an agent directly into
 the LoopSkill registry so it can search, install, and run additional verified
