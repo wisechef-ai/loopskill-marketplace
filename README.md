@@ -30,6 +30,8 @@ Then install any plugin listed below, for example:
 | [`hub-search-claude-code`](./plugins/hub-search-claude-code) | Discover locally-installed Claude Code skills and community npm plugins before authoring a duplicate. | Apache-2.0 | [app.loopskill.io/skills/hub-search-claude-code](https://app.loopskill.io/skills/hub-search-claude-code) |
 | [`xquik`](./plugins/xquik) | Research public X data through Xquik MCP with source provenance and approval-gated write actions. | MIT | [Xquik MCP docs](https://docs.xquik.com/mcp/overview) |
 
+Xquik is an independent third-party service. Not affiliated with X Corp. "Twitter" and "X" are trademarks of X Corp.
+
 The `loopskill` plugin is the flagship entry: it wires an agent directly into
 the LoopSkill registry so it can search, install, and run additional verified
 skills and loops beyond the ones bundled here.

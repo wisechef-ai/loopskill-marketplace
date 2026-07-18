@@ -77,7 +77,7 @@
         "name": "Xquik"
       },
       "homepage": "https://docs.xquik.com/mcp/overview",
-      "repository": "https://github.com/Xquik-dev/tweetclaw",
+      "repository": "https://github.com/Xquik-dev/x-twitter-scraper",
       "license": "MIT",
       "keywords": ["xquik", "x", "twitter", "research", "mcp"],
       "category": "research"
