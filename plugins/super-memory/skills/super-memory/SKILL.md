@@ -17,16 +17,6 @@ triggers:
   - provision memory for agent
   - replicate a full agent memory stack
   - cognee + couchdb + obsidian
-related_skills:
-  - cognee-kuzu-to-pghybrid-migration
-  - cognee-litellm-proxy-rotation
-  - cognee-api-watchdog
-  - cognee-nightly-ingest-optimization
-  - cognee-retrieval-architecture
-  - cognee-llm-provider-swap
-  - cognee-minor-version-upgrade
-  - cognee-agent-coordination
-  - vault-context-loader
 system_requirements:
   cpu_cores_min: 2
   ram_gb_min: 8
