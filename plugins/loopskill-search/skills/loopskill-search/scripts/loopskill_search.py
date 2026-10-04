@@ -25,12 +25,13 @@ API_BASE = os.environ.get("LOOPSKILL_API_BASE", "https://app.loopskill.io").rstr
 USER_AGENT = "loopskill-search-skill/1.0"
 TIMEOUT_S = 30
 
-# Lines a person must read before installing a third-party skill.
-RISK = re.compile(
-    r"(curl|wget|bash\s+-c|sh\s+-c|\beval\b|base64|rm\s+-rf|sudo\b|chmod\s+\+x|"
-    r"api[_-]?key|token|secret|password|ssh\b|\.env\b|https?://)",
-    re.IGNORECASE,
-)
+# Lines a person must read before installing a third-party skill: every line
+# inside a fenced code block (that is where commands live), every line with a
+# URL, and every line that mentions a credential. Structural, not a keyword
+# list of commands, so new shell tricks are not missed.
+_FENCE = re.compile(r"^\s*(```|~~~)")
+_URL = re.compile(r"https?://", re.IGNORECASE)
+_CREDENTIAL = re.compile(r"api[_-]?key|token|secret|password|credential|\.env\b", re.IGNORECASE)
 
 
 class RateLimited(Exception):
@@ -78,7 +79,15 @@ def format_search(data: dict, limit: int) -> str:
 
 
 def risk_lines(body: str) -> list[str]:
-    return [f"{n}: {line.strip()[:160]}" for n, line in enumerate(body.splitlines(), 1) if RISK.search(line)]
+    out: list[str] = []
+    in_code = False
+    for n, line in enumerate(body.splitlines(), 1):
+        if _FENCE.match(line):
+            in_code = not in_code
+            continue
+        if in_code or _URL.search(line) or _CREDENTIAL.search(line):
+            out.append(f"{n}: {line.strip()[:160]}")
+    return out
 
 
 def format_show(data: dict, lines: int) -> str:
