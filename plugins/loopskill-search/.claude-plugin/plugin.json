@@ -1,0 +1,21 @@
+{
+  "name": "loopskill-search",
+  "version": "1.0.0",
+  "description": "Find an agent skill before you write one: one query across skills.sh, ClawHub, the Hermes Skills Hub, LobeHub and GitHub skill repos, with the SKILL.md and a working install command. No API key.",
+  "author": {
+    "name": "WiseChef",
+    "email": "hello@wisechef.ai"
+  },
+  "homepage": "https://app.loopskill.io",
+  "repository": "https://github.com/wisechef-ai/loopskill-marketplace",
+  "license": "MIT",
+  "keywords": [
+    "skills",
+    "search",
+    "discovery",
+    "skills-sh",
+    "clawhub",
+    "hermes",
+    "marketplace"
+  ]
+}

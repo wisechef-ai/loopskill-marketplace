@@ -24,6 +24,21 @@
       "category": "meta"
     },
     {
+      "name": "loopskill-search",
+      "source": "./plugins/loopskill-search",
+      "description": "Find an agent skill before you write one: one query across skills.sh, ClawHub, the Hermes Skills Hub, LobeHub and GitHub skill repos, with the SKILL.md and a working install command. No API key.",
+      "version": "1.0.0",
+      "author": {
+        "name": "WiseChef",
+        "email": "hello@wisechef.ai"
+      },
+      "homepage": "https://app.loopskill.io",
+      "repository": "https://github.com/wisechef-ai/loopskill-marketplace",
+      "license": "MIT",
+      "keywords": ["skills", "search", "discovery", "skills-sh", "clawhub", "hermes", "marketplace"],
+      "category": "meta"
+    },
+    {
       "name": "super-memory",
       "source": "./plugins/super-memory",
       "description": "One-command installer for the full agent memory stack: cognee 1.0.x knowledge graph (pghybrid), LiteLLM proxy with rotation, cognee-api watchdog cron, nightly ingest pipeline, CouchDB 3 single-node document store, and a filesystem markdown vault wired to Obsidian.",

@@ -18,11 +18,25 @@ Then install any plugin listed below, for example:
 /plugin install loopskill@loopskill
 ```
 
+Any agent (Claude Code, Codex, Cursor, and 40+ more) through the
+[skills.sh](https://skills.sh) CLI:
+
+```
+npx skills add wisechef-ai/loopskill-marketplace --skill loopskill-search
+```
+
+Hermes:
+
+```
+hermes skills install https://raw.githubusercontent.com/wisechef-ai/loopskill-marketplace/main/plugins/loopskill-search/skills/loopskill-search/SKILL.md
+```
+
 ## Plugins
 
 | Plugin | Description | License | Registry |
 | --- | --- | --- | --- |
 | [`loopskill`](./plugins/loopskill) | Connect your agent to the LoopSkill registry — search, install, run verified loops. | MPL-2.0 | [app.loopskill.io/skills/loopskill](https://app.loopskill.io/skills/loopskill) |
+| [`loopskill-search`](./plugins/loopskill-search) | Find a published skill before you write one: one query across skills.sh, ClawHub, the Hermes Skills Hub, LobeHub and GitHub, with a working install command. No API key. | MIT | [app.loopskill.io](https://app.loopskill.io) |
 | [`super-memory`](./plugins/super-memory) | One-command installer for the full agent memory stack (cognee, LiteLLM proxy, CouchDB, Obsidian vault). | MIT | [app.loopskill.io/skills/super-memory](https://app.loopskill.io/skills/super-memory) |
 | [`ruthless-mentor`](./plugins/ruthless-mentor) | Stress-test a plan or decision in attack mode — separate gold from trash and push each to bulletproof. | Apache-2.0 | [app.loopskill.io/skills/ruthless-mentor](https://app.loopskill.io/skills/ruthless-mentor) |
 | [`plan-for-goal`](./plugins/plan-for-goal) | Author a goal-execution plan-doc ready to paste into a goal/issue tracker. | Apache-2.0 | [app.loopskill.io/skills/plan-for-goal](https://app.loopskill.io/skills/plan-for-goal) |
